@@ -88,7 +88,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist"
   location         : null
-  email            :
+  email            : youa.v@outlook.com
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
