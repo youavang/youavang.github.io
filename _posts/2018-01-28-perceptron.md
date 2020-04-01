@@ -1,10 +1,9 @@
 ---
-title: "Data Wrangling Project"
-date: 2018-01-28
-tags: [data wrangling, data science, messy data]
+title: "Stock Market Prediction with LSTM"
+tags: [LSTM, data science, artificial recurrent neural network, stock market prediction, closing price prediction,]
 header:
-  image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+  image: 
+excerpt: "LSTM, Data Science, artificial recurrent neural network, stock market prediction, closing price prediction"
 mathjax: "true"
 ---
 
