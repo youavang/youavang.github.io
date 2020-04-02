@@ -13,8 +13,8 @@ Why use LSTM?
 * Has feedback connections that allows it to process single both single data points, such as images, and an entire sequence data points, such as speech or videos.
 + It is highly effective when used for sequence prediction problem due to its capability to store past information that is important and forget information that is not important.
 
-Before coding the program, import labraries required for the program.
-Note: below is a few libriaries as an example. Check this [link](https://github.com/youavang/LSTM-Closing-Stock-Price-Prediction/blob/master/LSTM%20Closing%20Stock%20Price%20Prediction.ipynb) for the full list.
+Before coding the program, import the required libraries.
+Note: below are few libriaries as an example. Check this [link](https://github.com/youavang/LSTM-Closing-Stock-Price-Prediction/blob/master/LSTM%20Closing%20Stock%20Price%20Prediction.ipynb) for the full list.
 
 ```python
 # Import libraries
@@ -36,4 +36,4 @@ The root mean squared error (rmse) of the training and testing data sets is used
 Here is the plot of the training data set (blue), the predicted data set (yellow) and the actual data set (red).
 <img src="{{ site.url }}{{ site.baseurl }}/images/stock/stockpredict.png" alt="linearly separable data" height="48">
 
-Overall, the LSTM did well at predicting the stock closing price. I hope you enjoyed this short summary of this project. You can view the enitre codes at this [link](https://github.com/youavang/LSTM-Closing-Stock-Price-Prediction/blob/master/LSTM%20Closing%20Stock%20Price%20Prediction.ipynb).
+Overall, the LSTM did well at predicting the stock closing price. I hope you enjoyed this short summary of the LSTM prediction project. You can view the enitre codes at this [link](https://github.com/youavang/LSTM-Closing-Stock-Price-Prediction/blob/master/LSTM%20Closing%20Stock%20Price%20Prediction.ipynb).
