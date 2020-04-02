@@ -29,7 +29,7 @@ from keras.layers import Dense, LSTM
 Extract data of stock closing price of a company with pandas data reader for analysis and plot the closing price.
 <img src="{{ site.url }}{{ site.baseurl }}/images/stock/stock.png" alt="linearly separable data" height="48">
 
-Next the data is scaled with min-max scaler to fit within a range from 0 to 1, then it is plit into training and testing sets. The training data set is turned into a numpy array, then reshaped into the deminsional before the LSTM model is trained on them. The testing data set also gets transformed and plugged into the LSTM model.
+Next the data is scaled with min-max scaler to fit within a range from 0 to 1, then it is plit into training and testing sets. The training data set is turned into a numpy array, then reshaped into a three deminsional array before the LSTM model is trained on them. The testing data set also gets transformed and plugged into the LSTM model.
 
 The root mean squared error (rmse) of the training and testing data sets is used to measure the performance of the LSTM model in predicting the stock closing price. A low rmse value indicates low error rates and higher accuracy at prediction. In our case, the rmse = 1.08.
 
