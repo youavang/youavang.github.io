@@ -28,7 +28,7 @@ The entity relational database schema:
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/sql/sql-ERD.png" alt="linearly separable data" height="48">
 
-The next phase is to contruct the database with SQLdeveloper. First, create tables with Create statments. Next, input data into the tables with Insert statments.
+The next phase is to contruct the database with SQLdeveloper. First, create tables with CREATE statments. Next, input data into the tables with INSERT statments.
 
 Here is an sql example:
 ```sql
@@ -67,8 +67,8 @@ where TIMECARD.ProjectId = 'WA-PIN-335-005'
 and TIMECARD.PayPeriodEndDate = '13-DEC-19'
 and TIMECARD.RegHours is not null;
 ```
-The query will generate the detailed pay breakdown:
+The query will generate a detailed pay breakdown:
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/sql/sql-gross.png" alt="linearly separable data" height="48">
 
-You can view the enitre codes at this [link](https://https://github.com/youavang/Database-Design-SQL).
+You can view the enitre codes at this [link](https://github.com/youavang/Database-Design-SQL).
