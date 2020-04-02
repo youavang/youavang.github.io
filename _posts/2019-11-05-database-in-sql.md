@@ -4,7 +4,7 @@ dateL: 2019-11-05
 tags: [datbase, sql, query, relational database, erd, entity relational database, paranthetical]
 header:
   image: 
-excerpt: "Build a relational sql database."
+excerpt: "Construct a relational database in SQL."
 mathjax: "true"
 ---
 The Marcus Company is requiring a database that is scalable as the company exands. Although, the company has many concerns, the immediate objective is to develop a database for the company to store important informations that would allow them to generate payroll. Once the system is in place and running, other modules can be easily add on. 
