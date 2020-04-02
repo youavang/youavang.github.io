@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Youa Vang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/YVlogog.png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist"
   location         : null
   email            : youa.v@outlook.com
