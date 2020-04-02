@@ -35,10 +35,11 @@ CREATE TABLE COMPANY
               	State            char(2)        NOT NULL,
               	ZIP              char(5)        NOT NULL,
                	County           varchar(50)    NOT NULL,
-                Phone		         char(12)       NOT NULL,
-                Fax		           char(12)       NOT NULL,
+                Phone		     char(12)       NOT NULL,
+                Fax		      char(12)       NOT NULL,
               	CONSTRAINT PK_COMPANY PRIMARY KEY (ContractorNumber)
                 );
+                
  INSERT INTO COMPANY VALUES
                 (
                 '310646843', 'Marcus Company', '8088 Baron St.', NULL,   
