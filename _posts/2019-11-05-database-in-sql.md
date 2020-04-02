@@ -15,7 +15,7 @@ After gathering the data, sort them into subject-based tables and specify primar
 
 The parenthetical form of the entity relational database:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/sql/sql-pf.png" alt="linearly separable data" height="48">
+<img src="{{ site.url }}{{ site.baseurl }}/images/sql/sql-pf.png" alt="linearly separable data" height="28">
 
 The entity relational database schema:
 
@@ -27,16 +27,16 @@ Here is an sql example:
 ```sql
 CREATE TABLE COMPANY
                 (
-             	ContractorNumber   char(20)     NOT NULL,
-                Name             varchar(100)   NOT NULL,
-              	Address1         varchar(50)    NOT NULL,
-               	Address2         varchar(50)    NULL,
-              	City             varchar(50)    NOT NULL,
-              	State            char(2)        NOT NULL,
-              	ZIP              char(5)        NOT NULL,
-               	County           varchar(50)    NOT NULL,
-                Phone		 char(12)       NOT NULL,
-                Fax		 char(12)       NOT NULL,
+             	ContractorNumber   char(20)       NOT NULL,
+                Name               varchar(100)   NOT NULL,
+              	Address1           varchar(50)    NOT NULL,
+               	Address2           varchar(50)    NULL,
+              	City               varchar(50)    NOT NULL,
+              	State              char(2)        NOT NULL,
+              	ZIP                char(5)        NOT NULL,
+               	County             varchar(50)    NOT NULL,
+                Phone		   char(12)       NOT NULL,
+                Fax		   char(12)       NOT NULL,
               	CONSTRAINT PK_COMPANY PRIMARY KEY (ContractorNumber)
                 );
                 
