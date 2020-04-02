@@ -15,21 +15,7 @@ After gathering the data, sort them into subject-based tables and specify primar
 
 The parenthetical form of the entity relational database:
 
-COMPANY(___ContractorNumber___, Name, Address1, Address2, City, State, ZIP, County, Phone, Fax)
-
-PROJECT(___ProjectId___, ProjectLocation, Description, JOb, Stage)
-
-EEO_CODE(___EEOCode___, Description, Minority)
-
-JOBCODE(___JobCode___, JobClassification)
-
-EMPLOYEE(___EmployeeID___, FirstName, LastName, MI, SocialSecurity, UnionStatus, Gender, *EEOCode*, Address 1, Address2, City, State, ZIP, Phone, BirthDate, MaritalStatus, *Manager*)
-
-OVERTIME_RATE(___*ProjectId*___, OTRate)
-
-PAY_SCALE(___*ProjectId*___, ___*JobCode*___, Rate, FringeBenefits)
-
-TIMECARD(___*ProjectID*___, ___*EmployeeId*___, ___*JobCode*___, WorkDate, PayPeriodEndDate, RegHours, OT_Hours)
+<img src="{{ site.url }}{{ site.baseurl }}/images/sql/sql-pf.png" alt="linearly separable data" height="48">
 
 The entity relational database schema:
 
