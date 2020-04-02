@@ -15,14 +15,14 @@ After gathering the data, sort them into subject-based tables and specify primar
 
 The parenthetical form of the entity relational database:
 
-COMPANY(__ContractorNumber__, Name, Address1, Address2, City, State, ZIP, County, Phone, Fax)
-PROJECT(__ProjectId__, ProjectLocation, Description, JOb, Stage)
-EEO_CODE(__EEOCode__, Description, Minority)
-JOBCODE(__JobCode__, JobClassification)
-EMPLOYEE(__EmployeeID__, FirstName, LastName, MI, SocialSecurity, UnionStatus, Gender, *EEOCode*, Address 1, Address2, City, State, ZIP, Phone, BirthDate, MaritalStatus, *Manager*)
-OVERTIME_RATE(__*ProjectId*__, OTRate)
-PAY_SCALE(__*ProjectId*__, __*JobCode*__, Rate, FringeBenefits)
-TIMECARD(__*ProjectID*__, __*EmployeeId*__, __*JobCode*__, WorkDate, PayPeriodEndDate, RegHours, OT_Hours)
+COMPANY(_ContractorNumber_, Name, Address1, Address2, City, State, ZIP, County, Phone, Fax)
+PROJECT(_ProjectId_, ProjectLocation, Description, JOb, Stage)
+EEO_CODE(_EEOCode_, Description, Minority)
+JOBCODE(_JobCode_, JobClassification)
+EMPLOYEE(_EmployeeID_, FirstName, LastName, MI, SocialSecurity, UnionStatus, Gender, *EEOCode*, Address 1, Address2, City, State, ZIP, Phone, BirthDate, MaritalStatus, *Manager*)
+OVERTIME_RATE(_*ProjectId*_, OTRate)
+PAY_SCALE(_*ProjectId*_, _*JobCode*_, Rate, FringeBenefits)
+TIMECARD(_*ProjectID*_, _*EmployeeId*_, _*JobCode*_, WorkDate, PayPeriodEndDate, RegHours, OT_Hours)
 
 The entity relational database schema:
 
