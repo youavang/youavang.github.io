@@ -27,7 +27,7 @@ Here is an sql example:
 ```sql
 CREATE TABLE COMPANY
                 (
-             	ContractorNumber   char(20)       NOT NULL,
+             	ContractorNumber   char(20)     NOT NULL,
                 Name             varchar(100)   NOT NULL,
               	Address1         varchar(50)    NOT NULL,
                	Address2         varchar(50)    NULL,
