@@ -35,8 +35,8 @@ CREATE TABLE COMPANY
               	State            char(2)        NOT NULL,
               	ZIP              char(5)        NOT NULL,
                	County           varchar(50)    NOT NULL,
-                Phone		     char(12)       NOT NULL,
-                Fax		      char(12)       NOT NULL,
+                Phone		 char(12)       NOT NULL,
+                Fax		 char(12)       NOT NULL,
               	CONSTRAINT PK_COMPANY PRIMARY KEY (ContractorNumber)
                 );
                 
