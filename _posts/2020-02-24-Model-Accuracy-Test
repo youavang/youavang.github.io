@@ -1,10 +1,10 @@
 ---
-title: "SQL Database Design and Queries"
-dateL: 2019-11-05
-tags: [datbase, sql, query, relational database, erd, entity relational database, paranthetical]
+title: "Model Accuracy Test"
+dateL: 2020-02-24
+tags: [machine learning, logistric regression, svm, linear kernel, poly kernel, rbf, kNN, naive bayes, decision tree, random forest, classification, accuracy score]
 header:
   image: 
-excerpt: "Construct a relational database in SQL."
+excerpt: "Train multiple machine learning models on classification dataset."
 mathjax: "true"
 ---
 Eight different machine learning models are trained on the same data. The data consist of different writings of numbers from 0 to 9. Each model will be tested on how well they can predict the number. The machine learning models being tested are:
