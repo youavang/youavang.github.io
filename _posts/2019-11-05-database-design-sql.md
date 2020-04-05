@@ -1,7 +1,7 @@
 ---
 title: "SQL Database Design and Queries"
 dateL: 2019-11-05
-tags: [datbase, sql, query, relational database, erd, entity relational database, paranthetical]
+tags: [database, sql, query, relational database, erd, entity relational database, paranthetical]
 header:
   image: 
 excerpt: "Construct a relational database in SQL."
