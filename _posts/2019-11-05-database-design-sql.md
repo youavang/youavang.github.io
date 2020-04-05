@@ -1,5 +1,5 @@
 ---
-title: "SQL Database Design and Queries"
+title: "Database Design in SQL"
 dateL: 2019-11-05
 tags: [database, sql, query, relational database, erd, entity relational database, paranthetical]
 header:
