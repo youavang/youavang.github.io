@@ -1,0 +1,63 @@
+---
+title: "SQL Database Design and Queries"
+dateL: 2019-11-05
+tags: [datbase, sql, query, relational database, erd, entity relational database, paranthetical]
+header:
+  image: 
+excerpt: "Construct a relational database in SQL."
+mathjax: "true"
+---
+Eight different machine learning models are trained on the same data. The data consist of different writings of numbers from 0 to 9. Each model will be tested on how well they can predict the number. The machine learning models being tested are:
+  1. logistic regression
+  2. svm with linear kernel
+  3. svm with poly kernel
+  4. svm with rbf kernel
+  5. k-NN
+  6. naive bayes
+  7. decision tree classification
+  8. random forest classification
+
+Start by importing the required libraries and download the data:
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.datasets import load_digits
+```
+Next, create a dataframe, then split the dataset into training (75%) and testing set and normalize the features.
+```python
+df = load_digits()
+X = df.data
+y = df.target
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
+
+from sklearn.preprocessing import StandardScaler
+sc_X = StandardScaler()
+X_train = sc_X.fit_transform(X_train)
+X_test = sc_X.transform(X_test)
+```
+Now train each model and calculate their accuracy.
+
+For svm poly kernel model, train with different value of degree via a loop to find the kernel with the best accuracy. Plot the graph and anaylize the trend.
+<img src="{{ site.url }}{{ site.baseurl }}/images/models/SCVkernel.png" alt="linearly separable data" height="48">
+
+For k-NN model, train with different value of k via a loop to find which k result in the best accuracy. Plot the graph and anaylize the trend.
+<img src="{{ site.url }}{{ site.baseurl }}/images/models/kNN.png" alt="linearly separable data" height="48">
+
+For random forest model, also train with different values of n-estimators via a loop to find the estimator with the best accuracy. Plot the graph and anaylize the trend.
+<img src="{{ site.url }}{{ site.baseurl }}/images/models/estimators.png" alt="linearly separable data" height="48">
+
+Here are the best accuracy for each models:
+  1. Logistic Regression = 0.9622222222222222
+  2. SVM with linear kernel = 0.9733333333333334
+  3. SVM with poly kernel = 0.9822222222222222
+  4. SVM with rbf kernerl = 0.9844444444444445
+  5. k-NN = 0.9733333333333334
+  6. Naive Bayes = 0.7733333333333333
+  7. Decision Tree Classification = 0.8488888888888889
+  8.  Random Forest Classification = 0.9822222222222222
+  
+When comparing the accuracy scores of all the models, SVM with rbf kernel produced the highest accuracy score for this dataset.
+
+You can view the enitre codes at this [link](https://github.com/youavang/Model-Accuracy-Test/Model Accuracy Test.ipynb).
