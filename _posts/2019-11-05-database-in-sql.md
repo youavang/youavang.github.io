@@ -11,7 +11,7 @@ The Marcus Company is requiring a database that is scalable as the company exand
 
 Disclaimer: For the purpose of demonstration, the Marcus Company is a fictional company and all the data used are fictional. 
 
-After gathering the data, sort them into subject-based tables and specify primary keys. Next, create relationships among tables and normalize the database architecture.
+The gathered data is sorted into subject-based tables and primary keys are specified. Next, create relationships among tables and normalize the database architecture.
 
 The parenthetical form of the entity relational database:
 
@@ -21,7 +21,7 @@ The entity relational database schema:
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/sql/sql-ERD.png" alt="linearly separable data" height="48">
 
-The next phase is to contruct the database with SQLdeveloper. First, create tables with CREATE statments. Next, input data into the tables with INSERT statments.
+The database is constructed with SQLdeveloper, by first, creating tables with CREATE statments. Then input data into the tables with INSERT statments.
 
 Here is an sql example:
 ```sql
