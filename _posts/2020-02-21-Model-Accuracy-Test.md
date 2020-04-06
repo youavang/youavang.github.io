@@ -7,7 +7,7 @@ header:
 excerpt: "Train multiple machine learning models on classification dataset."
 mathjax: "true"
 ---
-Eight different machine learning models are trained on the same data. The data consist of different writings of numbers from 0 to 9. Each model will be tested on how well they can predict the number. The machine learning models being tested are:
+In this program, eight different machine learning models are trained on the same data. The data consist of different writings of numbers from 0 to 9. Each model will be tested on how well they can predict the number. The machine learning models being tested are:
   1. logistic regression
   2. svm with linear kernel
   3. svm with poly kernel
@@ -37,18 +37,18 @@ sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
 ```
-Now train each model and calculate their accuracy.
+Now train each model and calculate their accuracy score. For Svm poly kernel model, k-NN model and random forest model are train with different values of their respective hyperparameter in a loop to determine which values result in the highest accuracy score. Also, graph each of these models to visually assist in analyzing the trend.
 
-For svm poly kernel model, train with different value of degree via a loop to find the kernel with the best accuracy. Plot the graph and anaylize the trend.
-<img src="{{ site.url }}{{ site.baseurl }}/images/models/SCVkernel.png" alt="linearly separable data" height="48">
+For svm poly kernel model, degree = 3 gives the best accuracy score.
+<img src="{{ site.url }}{{ site.baseurl }}/images/models/svm-kernel.png" alt="linearly separable data" height="48">
 
-For k-NN model, train with different value of k via a loop to find which k result in the best accuracy. Plot the graph and anaylize the trend.
+For k-NN model, k = 1 and k = 5 gives the best accuracy score.
 <img src="{{ site.url }}{{ site.baseurl }}/images/models/kNN.png" alt="linearly separable data" height="48">
 
-For random forest model, also train with different values of n-estimators via a loop to find the estimator with the best accuracy. Plot the graph and anaylize the trend.
+For random forest model, estimator = 72, 73, 77, 78 gives the best accuracy score.
 <img src="{{ site.url }}{{ site.baseurl }}/images/models/estimators.png" alt="linearly separable data" height="48">
 
-Here are the best accuracy for each models:
+Here are the best accuracy score for each models:
   1. Logistic Regression = 0.9622222222222222
   2. SVM with linear kernel = 0.9733333333333334
   3. SVM with poly kernel = 0.9822222222222222
