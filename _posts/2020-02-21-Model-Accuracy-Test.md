@@ -43,10 +43,10 @@ For svm poly kernel model, degree = 3 gives the best accuracy score.
 <img src="{{ site.url }}{{ site.baseurl }}/images/models/svm-kernel.png" alt="linearly separable data" height="25">
 
 For k-NN model, k = 1 and k = 5 gives the best accuracy score.
-<img src="{{ site.url }}{{ site.baseurl }}/images/models/kNN.png" alt="linearly separable height="25">
+<img src="{{ site.url }}{{ site.baseurl }}/images/models/kNN.png" alt="linearly separable data" height="25">
 
 For random forest model, estimator = 72, 73, 77, 78 gives the best accuracy score.
-<img src="{{ site.url }}{{ site.baseurl }}/images/models/estimators.png" alt="linearly separable data" height="25">
+<img src="{{ site.url }}{{ site.baseurl }}/images/models/estimators.png" alt="linearly separable data" height="48">
 
 Here are the best accuracy score for each models:
   1. Logistic Regression = 0.9622222222222222
