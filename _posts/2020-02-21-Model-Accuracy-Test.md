@@ -40,13 +40,13 @@ X_test = sc_X.transform(X_test)
 Now train each model and calculate their accuracy score. For Svm poly kernel model, k-NN model and random forest model are train with different values of their respective hyperparameter in a loop to determine which values result in the highest accuracy score. Also, graph each of these models to visually assist in analyzing the trend.
 
 For svm poly kernel model, degree = 3 gives the best accuracy score.
-<img src="{{ site.url }}{{ site.baseurl }}/images/models/svm-kernel.png" alt="linearly separable data" height="35">
+<img src="{{ site.url }}{{ site.baseurl }}/images/models/svm-kernel.png" alt="linearly separable data" height="25">
 
 For k-NN model, k = 1 and k = 5 gives the best accuracy score.
-<img src="{{ site.url }}{{ site.baseurl }}/images/models/kNN.png" alt="linearly separable data" height="35">
+<img src="{{ site.url }}{{ site.baseurl }}/images/models/kNN.png" alt="linearly separable data" height="25">
 
 For random forest model, estimator = 72, 73, 77, 78 gives the best accuracy score.
-<img src="{{ site.url }}{{ site.baseurl }}/images/models/estimators.png" alt="linearly separable data" height="35">
+<img src="{{ site.url }}{{ site.baseurl }}/images/models/estimators.png" alt="linearly separable data" height="30">
 
 Here are the best accuracy score for each models:
   1. Logistic Regression = 0.9622222222222222
