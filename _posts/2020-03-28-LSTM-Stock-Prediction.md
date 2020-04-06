@@ -31,7 +31,7 @@ Plot of the stock closing price from 2012-01-01 to 2020-03-26.
 
 The data is scaled with a min-max scaler to fit within a range from 0 to 1. Then, it is split into training and testing sets. The training data set is turned into a numpy array, then reshaped into a three deminsional array before the LSTM model is trained on them. The testing data set also gets transformed and plugged into the LSTM model.
 
-The root mean squared error (rmse) of the training and testing data sets is used to measure the performance of the LSTM model in predicting the stock closing price. A low rmse value indicates low error rates and higher accuracy at prediction. In our case, the rmse = 1.08.
+The root mean squared error (rmse) of the training and testing data sets is used to measure the performance of the LSTM model in predicting the stock closing price. A low rmse value indicates low error rates and higher accuracy at prediction. In our case, rmse = 1.08.
 
 Here is the plot of the training data set (blue), the predicted data set (yellow) and the actual data set (red).
 <img src="{{ site.url }}{{ site.baseurl }}/images/stock/stockpredict.png" alt="linearly separable data">
